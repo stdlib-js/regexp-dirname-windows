@@ -103,6 +103,24 @@ dir = RE_DIRNAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' )[ 1 ];
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/dirname`][@stdlib/regexp/dirname]: return a regular expression to capture a path dirname.
+-   [`@stdlib/regexp/dirname-posix`][@stdlib/regexp/dirname-posix]: return a regular expression to capture a POSIX path dirname.
+-   [`@stdlib/utils/dirname`][@stdlib/utils/dirname]: return a directory name.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -161,6 +179,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 [dirname]: https://en.wikipedia.org/wiki/Dirname
+
+<!-- <related-links> -->
+
+[@stdlib/regexp/dirname]: https://github.com/stdlib-js/regexp-dirname
+
+[@stdlib/regexp/dirname-posix]: https://github.com/stdlib-js/regexp-dirname-posix
+
+[@stdlib/utils/dirname]: https://github.com/stdlib-js/utils-dirname
+
+<!-- </related-links> -->
 
 </section>
 
