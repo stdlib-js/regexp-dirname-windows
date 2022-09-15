@@ -18,7 +18,7 @@ limitations under the License.
 
 -->
 
-# Dirname
+# reDirnameWindows
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -57,7 +57,7 @@ Returns a [regular expression][regexp] to capture a Windows path [dirname][dirna
 ```javascript
 var RE_DIRNAME_WINDOWS = reDirnameWindows();
 var dir = RE_DIRNAME_WINDOWS.exec( 'foo\\bar\\index.js' )[ 1 ];
-// returns 'foo\\bar'
+// returns 'foo\bar'
 ```
 
 #### reDirnameWindows.REGEXP
@@ -66,7 +66,7 @@ var dir = RE_DIRNAME_WINDOWS.exec( 'foo\\bar\\index.js' )[ 1 ];
 
 ```javascript
 var dir = reDirnameWindows.REGEXP.exec( 'foo\\bar\\index.js' )[ 1 ];
-// returns 'foo\\bar'
+// returns 'foo\bar'
 ```
 
 </section>
@@ -83,13 +83,12 @@ var dir = reDirnameWindows.REGEXP.exec( 'foo\\bar\\index.js' )[ 1 ];
 var reDirnameWindows = require( '@stdlib/regexp-dirname-windows' );
 
 var RE_DIRNAME_WINDOWS = reDirnameWindows();
-var dir;
 
-dir = RE_DIRNAME_WINDOWS.exec( 'index.js' )[ 1 ];
+var dir = RE_DIRNAME_WINDOWS.exec( 'index.js' )[ 1 ];
 // returns ''
 
 dir = RE_DIRNAME_WINDOWS.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
-// returns 'C:\\foo\\bar'
+// returns 'C:\foo\bar'
 
 dir = RE_DIRNAME_WINDOWS.exec( 'foo\\file.pdf' )[ 1 ];
 // returns 'foo'
@@ -101,10 +100,10 @@ dir = RE_DIRNAME_WINDOWS.exec( '' )[ 1 ];
 // returns ''
 
 dir = RE_DIRNAME_WINDOWS.exec( '\\foo\\bar\\file' )[ 1 ];
-// returns '\\foo\\bar'
+// returns '\foo\bar'
 
 dir = RE_DIRNAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' )[ 1 ];
-// returns 'C:\\foo\\bar'
+// returns 'C:\foo\bar'
 ```
 
 </section>
