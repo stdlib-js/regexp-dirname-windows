@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reDirnameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-windows@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-dirname-windows/tags). For example,
+
+```javascript
 import reDirnameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-windows@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-windows@v0.2.0-esm/index.mjs';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-windows@esm/index.mjs';
 ```
 
 #### reDirnameWindows()
@@ -86,7 +91,7 @@ var dir = reDirnameWindows.REGEXP.exec( 'foo\\bar\\index.js' )[ 1 ];
 <body>
 <script type="module">
 
-import reDirnameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-windows@v0.2.0-esm/index.mjs';
+import reDirnameWindows from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-windows@esm/index.mjs';
 
 var RE_DIRNAME_WINDOWS = reDirnameWindows();
 
