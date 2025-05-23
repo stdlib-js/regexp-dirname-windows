@@ -2,6 +2,52 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-05-23)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#7057](https://github.com/stdlib-js/stdlib/issues/7057)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`296ea30`](https://github.com/stdlib-js/stdlib/commit/296ea30ecee4eb9377455f83a7561635c8c2a84f) - **chore:** fix EditorConfig lint errors [(#7063)](https://github.com/stdlib-js/stdlib/pull/7063) _(by Uday Kakade)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Uday Kakade
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.1">
 
 ## 0.2.1 (2024-02-21)
